@@ -6,6 +6,7 @@ PRODUCT_SIZE := full
 # Apps
 PRODUCT_PACKAGES += \
     Etar \
+    MuPDF \
     Profiles \
     Recorder \
     Seedvault \
