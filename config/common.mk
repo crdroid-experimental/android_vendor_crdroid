@@ -11,7 +11,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 # Adblock
 PRODUCT_PACKAGES += \
-    hosts.adblock
+    hosts.adblock \
+    hosts.adblock_symlink \
+    hosts.default
 
 PRODUCT_COPY_FILES += \
     vendor/lineage/etc/init/init.adblock.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.adblock.rc
