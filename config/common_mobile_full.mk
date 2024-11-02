@@ -5,11 +5,11 @@ PRODUCT_SIZE := full
 
 # Apps
 PRODUCT_PACKAGES += \
-    Eleven \
     Etar \
     Profiles \
     Recorder \
-    Seedvault
+    Seedvault \
+    Twelve_prebuilt
 
 ifneq ($(PRODUCT_NO_CAMERA),true)
 PRODUCT_PACKAGES += \
