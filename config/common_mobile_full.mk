@@ -5,6 +5,7 @@ PRODUCT_SIZE := full
 
 # Apps
 PRODUCT_PACKAGES += \
+    Camelot_prebuilt \
     Etar \
     Profiles \
     Recorder \
